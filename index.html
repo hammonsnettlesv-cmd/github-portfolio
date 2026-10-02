@@ -1,1 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Computer science and software development portfolio."
+  >
+
+  <title>Your Name | Computer Science Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">&lt;YourName /&gt;</a>
+
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navigation-links"
+      >
+        ☰
+      </button>
+
+      <ul class="navigation-links" id="navigation-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, my name is</p>
+
+          <h1>Vanyel Hammons-Nettles</h1>
+
+          <h2>Computer Science Student &amp; Aspiring Developer</h2>
+
+          <p class="hero-description">
+            I am a computer science student interested in software
+            development, problem-solving, and creating practical technology.
+            Welcome to my ePortfolio.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#projects">
+              View my projects
+            </a>
+
+            <a
+              class="button button-secondary"
+              href="https://github.com/hammonsnettlesv-cmd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit GitHub
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/hammonsnettlesv-cmd"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <!-- Replace # with your LinkedIn URL -->
+            <a href="#" aria-label="LinkedIn profile">
+              LinkedIn
+            </a>
+
+            <!-- Replace this email address -->
+            <a href="hammonsnettlesv@gmail.com">
+              Email
+            </a>
+          </div>
+        </div>
+
+        <div class="terminal" aria-label="Developer information">
+          <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+          </div>
+
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="output">Vanyel Hammons-Nettles</p>
+
+            <p><span class="prompt">$</span> role</p>
+            <p class="output">Computer Science Student</p>
+
+            <p><span class="prompt">$</span> interests</p>
+            <p class="output">
+              Software Development<br>
+              Web Development<br>
+              Problem-Solving
+            </p>
+
+            <p><span class="prompt">$</span> status</p>
+            <p class="output available">Open to new opportunities</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section alternate-section" id="about">
+      <div class="container">
+        <p class="section-label">About</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am currently studying computer science and developing my
+              knowledge of programming, web development, computer systems,
+              and software engineering.
+            </p>
+
+            <p>
+              I enjoy learning how technology works and using code to solve
+              problems. My goal is to continue strengthening my technical
+              abilities while creating projects that demonstrate what I have
+              learned.
+            </p>
+
+            <p>
+              This portfolio contains examples of my academic work, personal
+              projects, technical skills, and professional development.
+            </p>
+          </div>
+
+          <div class="quick-facts">
+            <h3>Quick Facts</h3>
+
+            <ul>
+              <li>
+                <strong>Location:</strong>
+                Eugene, Oregon
+              </li>
+              <li>
+                <strong>Education:</strong>
+                Computer Science
+              </li>
+              <li>
+                <strong>Interests:</strong>
+                Software and web development
+              </li>
+              <li>
+                <strong>Goal:</strong>
+                Begin a career in technology
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-label">Technology</p>
+        <h2 class="section-title">Technical Skills</h2>
+
+        <p class="section-introduction">
+          These are some of the technologies and concepts I am learning and
+          using in my coursework and projects.
+        </p>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Programming Languages</h3>
+
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">⚙</div>
+            <h3>Tools</h3>
+
+            <ul class="tag-list">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Command Line</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon">◆</div>
+            <h3>Concepts</h3>
+
+            <ul class="tag-list">
+              <li>Problem-Solving</li>
+              <li>Responsive Design</li>
+              <li>Version Control</li>
+              <li>Object-Oriented Programming</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section alternate-section" id="projects">
+      <div class="container">
+        <p class="section-label">My Work</p>
+        <h2 class="section-title">Featured Projects</h2>
+
+        <p class="section-introduction">
+          Replace these examples with your own class assignments and personal
+          projects as you complete them.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-number">01</div>
+
+            <div class="project-content">
+              <p class="project-type">Web Development</p>
+              <h3>Computer Science ePortfolio</h3>
+
+              <p>
+                A responsive personal portfolio created to present my
+                education, technical skills, projects, and career goals.
+              </p>
+
+              <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>GitHub Pages</li>
+              </ul>
+
+              <div class="project-links">
+                <a
+                  href="https://hammonsnettlesv-cmd.github.io/github-portfolio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live website ↗
+                </a>
+
+                <a
+                  href="https://github.com/hammonsnettlesv-cmd/github-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Source code ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+
+            <div class="project-content">
+              <p class="project-type">Course Project</p>
+              <h3>[Project Title]</h3>
+
+              <p>
+                Add a short explanation of the problem your project solves,
+                what you contributed, and what you learned while creating it.
+              </p>
+
+              <ul class="tag-list">
+                <li>Technology 1</li>
+                <li>Technology 2</li>
+              </ul>
+
+              <div class="project-links">
+                <!-- Replace # with the project repository URL -->
+                <a href="#">Source code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+
+            <div class="project-content">
+              <p class="project-type">Future Project</p>
+              <h3>More Coming Soon</h3>
+
+              <p>
+                I am continuing to build my programming skills. New projects
+                and documentation will be added to this portfolio.
+              </p>
+
+              <ul class="tag-list">
+                <li>In Progress</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="container">
+        <p class="section-label">Background</p>
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+          <div class="education-date">
+            2023–2026
+          </div>
+
+          <div>
+            <h3>Computer Science</h3>
+            <p class="school-name">Southern New Hamshire University]</p>
+
+            <p>
+              I have been working towards finishing my degree.
+            </p>
+
+            <h4>Relevant Coursework</h4>
+
+            <ul class="course-list">
+              <li>Introduction to Programming</li>
+              <li>Web Development</li>
+              <li>Computer Science Fundamentals</li>
+              <li>Database Fundamentals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Contact Me</h2>
+
+        <p>
+          I am interested in opportunities to learn, collaborate, and gain
+          experience in computer science and software development.
+        </p>
+
+        <!-- Replace this email address -->
+        <a class="button button-primary" href="mailto:hammonsnettlesv@gmail.com">
+          Send me an email
+        </a>
+
+        <div class="contact-links">
+          <a
+            href="https://github.com/hammonsnettlesv-cmd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <!-- Replace # with your LinkedIn URL -->
+          <a href="#">LinkedIn</a>
+
+          <!-- Add assets/resume.pdf before activating this link -->
+          <a href="assets/resume.pdf" target="_blank">
+            Résumé
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>
+        Designed and developed by [Your Name].
+      </p>
+
+      <p>
+        &copy; <span id="current-year"></span> All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
